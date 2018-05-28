@@ -1,0 +1,113 @@
+.goods {
+    width: 100%;
+    padding: 1rem 1rem;
+    background: #FAFAFA;
+    margin-bottom: 0.5rem;
+}
+
+.goods_img {
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+}
+
+.goods_detail {
+    display: inline-block;
+    width: 27.5rem;
+    height: 7rem;
+    vertical-align: top;
+}
+
+.goods_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.goods_num {
+    float: right;
+    margin-right: 1rem;
+}
+
+.goods_btn_white {
+    display: inline-block;
+    background: white;
+    color: #2C2C3D;
+    padding: 0.5rem 2rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 5rem;
+}
+
+.goods_btn_red {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: 1px solid red;
+    border-radius: 5rem;
+    margin-left: 1rem;
+}
+
+.evaluation {
+    display: inline-block;
+    font-size: 1.4rem;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 1rem 0.5rem;
+    vertical-align: top;
+}
+
+.evaluation_product {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+}
+
+.star {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
+}
+
+.detail_state {
+    background:url("/assets/images/order/order_detail_bg.png") no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    height: 7rem;
+    line-height: 7rem;
+}
+
+.detail_logistics {
+    background: white;
+    padding: 1rem;
+}
+
+.detail_address {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.detail_goods {
+    background: white;
+    margin-bottom: 1rem;
+}
+
+.detail_invoice {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.detail_price {
+    background: white;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dangerous_des img{
+    width: 100%;
+    /*height: 20rem;*/
+}

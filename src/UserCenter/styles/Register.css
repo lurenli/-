@@ -1,0 +1,334 @@
+/*页面Logo*/
+.logoIcon {
+    width: 10rem;
+    height: 8rem;
+}
+
+/*页面标题*/
+.Title {
+    width: 100%;
+    /*height: 3.8rem;*/
+    font-family: PingFangSC-Regular;
+    font-size: 3rem;
+    color: #3C4350;
+    letter-spacing: -0.25px;
+    line-height: 3.8rem;
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+/*页面描述*/
+.Describe {
+    width: 100%;
+    height: 2.2rem;
+    font-family: PingFangSC-Regular;
+    font-size: 1.6rem;
+    color: #696D6F;
+    letter-spacing: 0.25px;
+    line-height: 2.2rem;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+/*电话输入框外层Div*/
+.inputTitle {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+    height: 5rem;
+    border: 0.1rem solid #DDDDDD;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    margin-top: 5rem;
+}
+
+/*密码输入框*/
+.input2Title {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+    height: 5rem;
+    border: 0.1rem solid #DDDDDD;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    margin-top: 1.3rem;
+}
+
+/*输入框名字*/
+.inputNameDiv {
+    /*width: 4.4rem;*/
+    height: 2rem;
+    opacity: 0.5;
+    font-family: PingFangSC-Regular;
+    font-size: 1.4rem;
+    color: #2C2C3D;
+    letter-spacing: 0.46px;
+    line-height: 2rem;
+}
+
+/*输入框*/
+.loginInput {
+    font-size: 1.6rem;
+    height: 1.6rem;
+    padding: 1.7rem 0;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.input2 {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    outline: none;
+    border: none;
+    background: none;
+    width: 100%;
+}
+
+/*验证码*/
+.messageCodeDiv {
+    height: 2.2rem;
+    font-family: PingFangSC-Regular;
+    font-size: 1.4rem;
+    color: #4990E2;
+    letter-spacing: 0.21px;
+    line-height: 2.2rem;
+    float: right;
+    text-align: right;
+
+}
+
+/*忘记密码*/
+.forgetPassword {
+    font-family: PingFangSC-Regular;
+    font-size: 1.4rem;
+    /*color: #919499;*/
+    color: red;
+    letter-spacing: 0.15px;
+    line-height: 2.2rem;
+    width: 100%;
+    height: 2.2rem;
+    float: right;
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 1.1rem;
+    text-decoration: underline
+}
+
+/*按钮*/
+.loginButton {
+    background: red;
+    font-family: PingFangSC-Regular;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+/*没有账号,去注册Div*/
+.RegisterAccountDiv {
+    width: 100%;
+    text-align: left;
+    height: 3.2rem;
+    font-family: PingFangSC-Regular;
+    font-size: 1.4rem;
+    color: #919499;
+    letter-spacing: 0.15px;
+    line-height: 2.2rem;
+    margin-top: 1.1rem;
+    padding-left: 1.5rem;
+}
+
+.otherLogin {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.otherItem {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+}
+
+.otherImg {
+    width: 5rem;
+    height: 5rem;
+}
+
+.userBg {
+    width: 100%;
+    height: 15rem;
+    /*background: url('/assets/images/userCenter/user_money.png') no-repeat;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+    /*padding-top: 0.35rem;*/
+}
+.userCard{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height:  15rem;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.3);
+    background: hsla(0,0%,100%,.3);
+    z-index: 1;
+}
+.userCard ::before{
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    background: rgba(255,0,0,.5);
+    margin: -3rem;
+}
+
+.userIcon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0 0.5rem;
+    vertical-align: text-bottom;
+}
+
+.orderMenu {
+    display: inline-block;
+    flex: 1;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.menuBg {
+    width: 3rem;
+    height: 3rem;
+}
+
+#questionType {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+#feedbackPhoto {
+    display: none;
+}
+
+.call{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    width: 15rem;
+    margin: auto;
+    height: 5rem;
+}
+
+.questionType > li {
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    border: 1px solid #eeeeee;
+    border-radius: 3rem;
+    text-align: center;
+    list-style: none; /* 将默认的列表符号去掉 */
+    padding: 0; /* 将默认的内边距去掉 */
+    margin: 0.5rem; /* 将默认的外边距去掉 */
+}
+
+.receiptItem + .receiptItem {
+    margin-top: 1rem;
+}
+
+.moneyStyle{
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    padding-top: 3rem;
+    color: white;
+    background:url("/assets/images/userCenter/user_money_bg.png") no-repeat;
+    background-size: cover;
+}
+
+.cardItem {
+    width: 100%;
+    border-bottom: 1rem solid #f2f2f2;
+    background-color: white;
+}
+
+.line-wrapper {
+    width: 100%;
+    border-bottom: 1rem solid #f2f2f2;
+    background-color: white;
+    overflow: hidden;
+}
+
+.line-scroll-wrapper {
+    white-space: nowrap;
+    clear: both;
+}
+
+.line-btn-delete {
+    float: left;
+    width: 10rem;
+    height: 11rem;
+}
+
+.line-btn-delete button {
+    width: 100%;
+    height: 100%;
+    background: red;
+    border: none;
+    font-size: 1.4rem;
+    font-family: 'Microsoft Yahei';
+    color: #fff;
+}
+
+.line-normal-wrapper {
+    display: inline-block;
+    float: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.line-normal-icon-wrapper {
+    float: right;
+    width: 2rem;
+    height: 9rem;
+    line-height: 9rem;
+    margin-right: 1rem;
+}
+
+.line-normal-icon-wrapper img {
+    width: 1rem;
+    height: 1.5rem;
+}
+
+.line-normal-avatar-wrapper {
+    width: 3rem;
+    height: 9rem;
+    float: left;
+    margin-left: 2rem;
+}
+
+.line-normal-avatar-wrapper img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 6rem;
+}
+
+.line-normal-left-wrapper {
+    float: left;
+    overflow: hidden;
+}
+
+.line-normal-info-wrapper {
+    float: left;
+    margin-left: 1rem;
+}
+
+/*.line-normal-user-name { height: 28px; line-height: 28px; color: #4e4e4e; margin-top: 7px; }*/
+/*.line-normal-msg { height: 28px; line-height: 28px; overflow:hidden; text-overflow:ellipsis; color: #4e4e4e; margin-top: 11px; }*/
+/*.line-normal-time { height: 28px; line-height: 28px; color: #999; margin-top: 11px; }*/
+

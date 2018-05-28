@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>紧商网</title>
+    <meta http-equiv="Expires" CONTENT="0">
+    <meta http-equiv="Cache-Control" CONTENT="no-cache">
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+</head>
+<style>
+    html {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-size: 62.5%;
+        font-size: calc(10vw / 3.75);
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+    }
+
+    div, image, body, html, a, span {
+        -moz-user-select: none;
+        khtml-user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        box-sizing: border-box;
+    }
+
+    input{
+        font-size: 1.4rem !important;
+    }
+
+</style>
+<body style="width: 100%; height:100%; font-family: 'Arial','Microsoft YaHei','黑体','宋体','sans-serif';margin: 0px;padding: 0px;">
+<div id="content" style="width:100%; height:100%;"></div>
+<script type="text/javascript">
+    var htmlTag = document.getElementsByTagName('html');
+    if (htmlTag) {
+        var fs = window.innerWidth * 10 / 375;
+        console.log("setting font size: " + fs);
+        htmlTag[0].style.fontSize = "" + fs + "px";
+    }
+</script>
+<!--<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" charset="utf-8"></script>-->
+<script type="text/javascript" src="/assets/js/bundle.js" charset="utf-8"></script>
+</body>
+</html>

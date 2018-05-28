@@ -1,0 +1,179 @@
+.ResearchCenter{
+    width: 100%;
+    height: 100% ;
+    background-color:#fff;
+    overflow: scroll;
+    position: relative;
+    text-align:justify;
+}
+ul li{
+    list-style:none;
+}
+.Center{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:8.5rem 2rem 3rem 2rem;
+    font-family: "微软雅黑";
+}
+/*定制热线*/
+.hotTel{
+    font-size:1.4rem;
+    font-weight: bold;
+    color:#ffffff;
+}
+/*介绍*/
+.Introduce{
+    padding:4rem 0 1.2rem 0;
+    border-bottom:1px solid #cccccc;
+    font-size:1.4rem;
+    color:#333333;
+}
+.Introduce_title{  overflow: hidden;  }
+.Introduce_title>span{
+    float: left;
+    font-weight: bold;
+    font-size:1.6rem;
+    display: inline-block;
+    margin-bottom:1rem;
+}
+.Introduce_title i{
+    display: inline-block;
+    width:4px;
+    height:1.7rem;
+    line-height:1.7rem;
+    background-color: #e8000e;
+    margin:0.2rem 0.5rem 0 0;
+    float: left;
+    border-radius:0.1rem;
+}
+.Introduce p{
+    text-indent:2.8rem;
+    line-height:1.8rem;
+}
+/*产品*/
+.Product{
+    padding-bottom:1.3rem;
+    border-bottom: 1px solid #cccccc;
+}
+.Product_title{
+    display:block;
+    text-align: center;
+    font-size:1.6rem;
+    font-weight: bold;
+    margin:1.3rem 0 0.5rem 0;
+}
+.product_ul li{
+    border-bottom: 1px solid #cccccc;
+    margin:0 0.5rem;
+    padding:0.8rem 0;
+    overflow: hidden;
+}
+.product_ul li:last-child{  border: none;  }
+.product_ul li img{
+    float: left;
+    width:8.5rem;
+    height:9.5rem;
+    overflow: hidden;
+    margin-right:0.6rem;
+}
+.product_ul li div{
+    float: left;
+    width: 22rem;
+}
+.product_ul li div .p_name{
+    font-size:1.4rem;
+    font-weight: bold;
+    margin-bottom:0.4rem;
+    display: block;
+}
+.product_ul li div p{
+    font-size:1.4rem ;
+    line-height:1.6rem;
+    color: #666666;
+}
+.product_ul li div .p_tips{
+    font-size: 1.2rem;
+    display: block;
+    margin-top:0.5rem;
+}
+/*产品----产品的图片集合展示*/
+.Product_imgs{
+    overflow: hidden;
+    margin:0.5rem 2rem;
+}
+.Product_imgs li{
+    float: left;
+    margin:0.5rem;
+}
+.Product_imgs li img{
+    width:6rem;
+    height:4rem;
+    overflow: hidden;
+}
+/*人物*/
+.People{
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+    margin-top:1.8rem;
+}
+.People>img{
+    width:11rem ;
+    height:8.5rem;
+    float: left;
+    margin:0 1.2rem 0.2rem 0;
+}
+.People .People_title{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.People .peopel_name, .People p{
+    color: #7b7b7b;
+    font-size: 1.4rem;
+    line-height:1.8rem;
+
+}
+.People p{  text-indent: 2.8rem;  }
+.People .p_imgs{
+    text-align: center;
+    margin:1.5rem 0;
+}
+.People .p_imgs img{
+    width:7rem;
+    height:6.5rem;
+    margin:0 6px;
+}
+/*一栏*/
+.Look{
+    overflow:hidden;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 1.5rem;
+}
+.Look>img{
+    float: left;
+    width: 12rem;
+    height:8.5rem;
+    margin-right:6px;
+}
+.Look div.look_right{  float: left;  }
+.look_right .look_s img{
+    margin:0 0.3rem 0.3rem 0;
+    width:4.5rem;
+    height:4rem;
+}
+.Look div.look_right .look_s img:last-child{  margin-right: 0;  }
+.Look div.look_right .look_m img:first-child{  margin-right: 0.3rem;  }
+.look_right .look_m img{
+    width:9.3rem;
+    height:4rem;
+}
+/*热线*/
+.bottom{
+    font-size:1.4rem;
+    margin:2rem 0;
+    text-align: center;
+}

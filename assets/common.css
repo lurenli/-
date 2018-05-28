@@ -1,0 +1,26 @@
+.slick-dots {
+    position: static;
+    margin-top: -1.5rem;
+}
+
+.slick-prev {
+    display: none;
+}
+
+.slick-next {
+    display: none;
+}
+
+.weui-navbar__item.weui-bar__item_on {
+    background: red;
+    color: #FFFFFF;
+}
+
+.tabItem {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+}

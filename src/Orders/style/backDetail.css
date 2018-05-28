@@ -1,0 +1,98 @@
+.back_header {
+    width: 100%;
+    min-height: 7rem;
+    line-height: 7rem;
+    background: url("/assets/images/order/order_service_bg.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.back_mid {
+    background: #fff;
+    margin-bottom: 1rem;
+}
+
+.mid_title {
+    font-size: 1.4rem;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 2px solid #FAFAFA;
+}
+
+.mid_msg {
+    font-size: 1.2rem;
+}
+
+.mid_msg span {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    font-size: 1.2rem;
+}
+
+.mid_operate {
+    padding: 1rem 0 1rem 1rem;
+    overflow: hidden;
+}
+
+.mid_Btn {
+    float: right;
+    padding: 0.2rem 0.8rem;
+    border-radius: 1.5rem;
+    font-size: 1.4rem;
+    border: 1px solid #FAFAFA;
+    margin: 0 1rem;
+}
+
+/*商品信息*/
+.goods_information {
+    min-height: 28rem;
+    background: #fff;
+    margin-top: 1rem;
+}
+
+.goods_header {
+    display: inline-block;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    color: #222222;
+    padding-left: 1rem;
+}
+
+/*带图片的信息详情*/
+.good_img {
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+}
+
+.good_detail {
+    display: inline-block;
+    width: 27.5rem;
+    height: 7rem;
+    font-size: 1.2rem;
+}
+
+.gooddetail_num {
+    float: right;
+    margin-right: 1rem;
+    color: #222222;
+}
+
+.goods_msg {
+    background: #FAFAFA;
+    min-height: 10rem;
+    margin-bottom: 1rem;
+}
+
+.goods_information ul {
+    padding-bottom: 1rem;
+}
+
+.goods_information ul li {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
